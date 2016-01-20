@@ -73,7 +73,7 @@ public class GenericRequestBuilder<ModelType, DataType, ResourceType, TranscodeT
     private GlideAnimationFactory<TranscodeType> animationFactory = NoAnimation.getFactory();
     private int overrideHeight = -1;
     private int overrideWidth = -1;
-    private DiskCacheStrategy diskCacheStrategy = DiskCacheStrategy.RESULT;
+    private DiskCacheStrategy diskCacheStrategy = DiskCacheStrategy.ALL;
     private Transformation<ResourceType> transformation = UnitTransformation.get();
     private boolean isTransformationSet;
     private boolean isThumbnailBuilt;
